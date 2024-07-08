@@ -1,6 +1,8 @@
 import { createRoot } from "react-dom/client";
 
+import App from "./App.jsx";
+
 document.body.innerHTML = '<div id="app"></div>';
 
 const root = createRoot(document.getElementById("app"));
-root.render(<h1>Hello there</h1>);
+root.render(<App />);
